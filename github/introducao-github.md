@@ -11,3 +11,7 @@ Em seguida trabalhei em local na maquina para criar uma nova pasta "github". Den
 Executei em seguida o comando git status para verificar o estado do repositório e verifiquei que precisava atualizar os arquivos no github
 Executei então os comandos git add * e git commit para commitar as atualizações feitas ao repositório. O git pediu configurar o e-mail e o nome do usuário, então executei o comando git config --global e em seguida repeti o commit.
 Finalmente executei o comando git push para enviar os arquivos no github
+
+## Resolução de conflito
+Decidi mudar o nome do repositório no github e na hora de dar o comando push deu um erro fatal pois o link do repositório não correspondia mais, e o git não estava encontrando o branch master do meu repositório.
+Procurei como resolver este conflito e consegui atualizar o repositório remoto mudando o nome do branch com o comando git branch.
