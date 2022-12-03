@@ -1,0 +1,17 @@
+# Comandos básicos para um bom desempenho no terminal
+
+## DOS
+dir = devolve a lista dos diretórios da pasta
+cd = mudar de pasta e navegar entre elas
+cd / = volta à pasta principal
+cd nomepasta = para entrar numa pasta específica
+cd .. = para retroceder de um nível
+cls = limpa a tela do terminal
+Tab (tecla) = autocompleta o comando que estou digitando
+mkdir = cria uma nova pasta
+echo = escreve algo no terminal
+echo Hello > texto.txt = cria um arquivo texto.txt com o texto Hello
+del nomearquivo = deleta arquivo indicado
+rmdir nomepasta /S /Q = deleta a pasta e todo o seu conteúdo
+
+
