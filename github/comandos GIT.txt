@@ -12,6 +12,7 @@ git config --global user.name emmanu-mdi = configura no nível global o nome de 
 git add * = adiciona todo o repositório local no git
 git commit -m "descrição do commit" = faz o commit do repositório com um comentário sobre este commit
 git status = retorna o status do repositório local e no github
+git push origin master = envia os arquivos no github
 
 ## syntax markdown language
 https://www.markdownguide.org/basic-syntax

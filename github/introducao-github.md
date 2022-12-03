@@ -9,4 +9,5 @@ Este repositório foi criado diretamente no GITHUB em seguidas foram feitas algu
 O repositório foi clonado na minha maquina.
 Em seguida trabalhei em local na maquina para criar uma nova pasta "github". Dentro da pasta criei dois arquivos .txt com os comandos uteis para trabalhar no git/github neste bootcamp e no futuro.
 Executei em seguida o comando git status para verificar o estado do repositório e verifiquei que precisava atualizar os arquivos no github
-Executei então os comandos git add * e git commit para commitar as atualizações feitas ao repositório. O git pediu configurar o e-mail e o nome do usuário, então executei o comando git config --global e em seguida repeti o commit
+Executei então os comandos git add * e git commit para commitar as atualizações feitas ao repositório. O git pediu configurar o e-mail e o nome do usuário, então executei o comando git config --global e em seguida repeti o commit.
+Finalmente executei o comando git push para enviar os arquivos no github
