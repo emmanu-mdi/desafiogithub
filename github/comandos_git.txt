@@ -17,7 +17,22 @@ git push origin main = envia os arquivos no github
 git pull origin main = o git tenta juntar os repositórios local com o do github
 git branch -m master main = renomear o branch local
 
-Renomear o branch remoto:
+*Push no repositório remoto um arquivo excluido*
+git add 'deleted file name'
+git commit -m'message'
+git push -u origin branch
+
+*Deletar um arquivo no repositório remoto e local*
+git rm 'file name'
+git commit -m'message'
+git push -u origin branch
+
+*Deletar um arquivo só no repositório remoto*
+git rm --cached 'file name'
+git commit -m'message'
+git push -u origin branch
+
+*Renomear o branch remoto*
 git checkout main
 git push -u origin main
 
