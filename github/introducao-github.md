@@ -13,5 +13,6 @@ Executei então os comandos git add * e git commit para commitar as atualizaçõ
 Finalmente executei o comando git push para enviar os arquivos no github
 
 ## Resolução de conflito
-Decidi mudar o nome do repositório no github e na hora de dar o comando push deu um erro fatal pois o link do repositório não correspondia mais, e o git não estava encontrando o branch master do meu repositório.
-Procurei como resolver este conflito e consegui atualizar o repositório remoto mudando o nome do branch com o comando git branch.
+Na hora de dar o comando push deu um erro fatal pois o git não estava encontrando o branch master do meu repositório. 
+Procurei como resolver este conflito e descobri que a palavra master foi substituita pela palavra main. Consegui atualizar o repositório remoto mudando o nome do branch com o comando git branch.
+Decidi mudar o nome do repositório remoto, assim precisei também atualizar o link do projeto no meu git local através do comando git remote set-url origin

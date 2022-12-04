@@ -1,14 +1,15 @@
 # Comandos básicos GIT
 
-ls = listar as pastas
-cd = navegar entre as pastas
-cd .. = retroceder de um nível
-CTRL + L = limpa o terminal
-mkdir = cria um novo repositório
+git config --list = traz a lista das configurações necessárias ao GIT
+q = sair da lista de comandos, sair do comando atual
+git config --global --unset nome.configuracao = para resetar uma configuração
+git config --global user.email "email@dominio.com" = configura no nível global o email do usuário github
+git config --global user.name emmanu-mdi = configura no nível global o nome de usuário github 
 
 git init = inicializa um repositório
-git config --global user.email "email@dominio.com" = configura no nível global o email do usuário github
-git config --global user.name emmanu-mdi = configura no nível global o nome de usuário github
+git remote add origin link-do-github = adicionar a origem remota do repositório
+git remote -v = retorna a lista dos repositórios remotos vinculados ao local
+git remote set-url origin novolink = alterar a origem do repositório remoto
 git add * = adiciona todo o repositório local no git
 git commit -m "descrição do commit" = faz o commit do repositório com um comentário sobre este commit
 git status = retorna o status do repositório local e no github
