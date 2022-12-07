@@ -5,3 +5,4 @@ Repositório do bootcamp Kotlin Experience da DIO. Todos os projetos e desafios 
 
 1. Introdução ao Github - desafio de projeto
 2. Fundamentos do Kotlin - referencias de código
+3. Projetos pessoais para aprofundar o conhecimento (kotlin-projects-jetBrains)
