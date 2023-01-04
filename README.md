@@ -1,5 +1,5 @@
 # Kotlin Experience
-Repositório do bootcamp Kotlin Experience da DIO. Todos os projetos e desafios do bootcamp serão colocados neste repositório.
+Repositório do bootcamp Kotlin Experience da DIO. Todos os projetos e desafios do bootcamp se encontram neste repositório.
 
 ## Lista de projetos entregues neste repositório
 
